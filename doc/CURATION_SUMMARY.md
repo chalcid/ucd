@@ -11,6 +11,8 @@ The Universal Chalcidoidea Database is curated by a distributed team of chalcido
 
 Our intent is to catalog chalcid nomenclature, as goverened by the [ICZN](https://code.iczn.org/), comprehensively.  In brief this means that, sensus the ICZN, all availble, unavailble, valid, and invalid names for chalcid wasps are targets for cataloging. For the purposes of our curation unavailable names are those for which the author _intended_ to be treated by the ICZN, but failed for reasons based on the rules therein.  For example "jewel wasp" was never intended to be goverened, so while techinical the name is unavaible, it doesn't fall in this category for the purposes of curation. A list of common names is not being curated.
 
+Secondarily, we are discussing the role of non-governed names, particularly those for molecular vouchers, which are increasing and relatively prominent in the chalcid literature.  These names are linked to concepts, and individual specimens.  Recording them as OTU labels, then linking those OTUs to the nomenclature requires some discussion of what the link between the OTU label (`name` field in TaxonWorks) and the nomenclature name (`taxon_name` in TaxonWorks) _means_.  
+
 ### Tasks
 
 Curation in this area focuses on:
@@ -81,10 +83,9 @@ At the time of transfer there were 105049 geographic distribution assertions.  O
 
 Noyes did not explicitly create specimen records, but rather added type data to name records.  These data are attached to Taxon names (nomenclature) as data attributes.  Moving forward we will capture all primary-type records as specimen records.  Non-primary type information can also be recorded as specimen records, but is not required.
 
+There is a strong desire to begin comprehensively cataloging images of the primary types, it seems likely that this will fall under a "required" component for UCD completeness.
+
 ### Pertinent tasks and interfaces
 
 * The "Comprehensive digitization" task for type speicmens
 * The simpler "New type specimen task" available through the new taxon name task
-
-
-
